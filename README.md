@@ -95,12 +95,25 @@ Câu 1. (1,5 điểm) Tìm các khoảng đơn điệu của hàm số y = x³ �
 | `PHẦN I/II/III/IV` + từ khóa | Loại phần: NHIỀU LỰA CHỌN, ĐÚNG SAI, TRẢ LỜI NGẮN, TỰ LUẬN |
 | `Câu n.` hoặc `Câu n:` | Bắt đầu câu. Gõ tay, không dùng đánh số tự động của Word |
 | Gạch chân / chữ đỏ / `*B.` / tô sáng | Đánh dấu đáp án đúng (dùng một cách cho cả file) |
+| `BẢNG ĐÁP ÁN` + bảng 2 dòng hoặc 2 cột | Ghi đáp án trong bảng thay cho đánh dấu trong câu (xem bên dưới) |
 | `[NB] [TH] [VD] [VDC]`, `[CĐ1]` | Mức độ, chủ đề để rút theo ma trận. Tự xóa khỏi đề |
 | `#` hoặc `[KĐ]` | Không đảo phương án của câu này (ví dụ câu có phương án "Cả A và B") |
 | `[KHÓA]` | Giữ nguyên vị trí câu |
 | `[NHÓM]` … `[HẾT NHÓM]` | Câu chùm. "Từ câu X đến câu Y" trong đoạn dẫn được đánh số lại tự động |
 | `Lời giải` / `Hướng dẫn giải` | Lời giải, chỉ in ở đề kèm lời giải |
 | `Điểm: 1,5` hoặc `(1,5 điểm)` | Điểm câu tự luận |
+
+### Ghi đáp án bằng bảng đáp án
+
+Thay vì gạch chân trong từng câu, có thể đặt đoạn tiêu đề **BẢNG ĐÁP ÁN** (hoặc **ĐÁP ÁN**, **ĐÁP ÁN PHẦN I**), ngay sau đó là một bảng theo kiểu **2 dòng** hoặc **2 cột**:
+
+| Câu | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| **Đáp án** | B | C | A | D |
+
+- Trắc nghiệm ghi chữ cái, đúng sai ghi chuỗi `ĐSĐS`, trả lời ngắn ghi giá trị (ví dụ `-3,5`).
+- Nhiều phần dùng chung một bảng thì ghi số câu kèm phần (`I.1`, `II.1`…), hoặc đặt mỗi phần một bảng.
+- Bảng đáp án **không bao giờ được in vào đề**. Nếu vừa gạch chân vừa có bảng mà hai nơi ghi khác nhau, phần mềm báo lỗi để thầy cô kiểm tra lại.
 
 ## 📦 File xuất ra
 
