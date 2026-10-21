@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="docs/images/icon.png" alt="TronDe" width="112">
+<img src="docs/images/icon.png" alt="Trộn Đề QuizPVT" width="112">
 
-# TronDe — Phần mềm trộn đề trắc nghiệm THPT
+# Trộn Đề QuizPVT — Phần mềm trộn đề trắc nghiệm THPT
 
 **Trộn đề từ ngân hàng câu hỏi Word, giữ nguyên công thức MathType và hình ảnh.<br>
 Xuất đề, bảng đáp án và tự kiểm tra đáp án khớp 100% với đề. Miễn phí, chạy offline.**
@@ -41,14 +41,14 @@ Xuất đề, bảng đáp án và tự kiểm tra đáp án khớp 100% với �
 
 1. Vào trang **[Releases](https://github.com/vantupham/tron-de-trac-nghiem/releases/latest)**, tải file `TronDe-Setup-<phiên bản>.exe`.
 2. Chạy file vừa tải và làm theo hướng dẫn. **Không cần cài Python** hay phần mềm nào khác.
-3. Mở **TronDe** từ lối tắt ngoài Desktop hoặc trong Start Menu.
+3. Mở **Trộn Đề QuizPVT** từ lối tắt ngoài Desktop hoặc trong Start Menu.
 
 **Yêu cầu:** Windows 10 hoặc 11 (64-bit). Muốn xuất PDF thì máy cần có Microsoft Word hoặc LibreOffice.
 
 > [!NOTE]
 > Windows có thể hiện cảnh báo **"Windows protected your PC"** vì bộ cài chưa được ký số. Bấm **More info → Run anyway** để tiếp tục cài.
 
-File mẫu (`ngan_hang_mau.docx`, `huong_dan_soan.docx`) có trong Start Menu, mục **TronDe → File mẫu**. Gỡ cài đặt qua *Settings → Apps* như phần mềm thông thường.
+File mẫu (`ngan_hang_mau.docx`, `huong_dan_soan.docx`) có trong Start Menu, mục **Trộn Đề QuizPVT → File mẫu**. Gỡ cài đặt qua *Settings → Apps* như phần mềm thông thường.
 
 ## 🚀 Dùng trong 4 bước
 
@@ -121,7 +121,7 @@ Mỗi lần xuất tạo một thư mục mới, ví dụ `Toan_KiemTraGiuaKyI_2
 <details>
 <summary><b>Công thức MathType có bị lỗi hay mất không?</b></summary>
 
-Không. TronDe sao chép nguyên phần tử Word của từng câu sang đề mới, nên công thức MathType, Equation, hình ảnh, bảng vẫn giữ nguyên và sửa được trong Word như bình thường.
+Không. Phần mềm sao chép nguyên phần tử Word của từng câu sang đề mới, nên công thức MathType, Equation, hình ảnh, bảng vẫn giữ nguyên và sửa được trong Word như bình thường.
 </details>
 
 <details>
@@ -157,14 +157,14 @@ Xuất PDF cần Microsoft Word hoặc LibreOffice trên máy. Nếu không có,
 <details>
 <summary><b>Có chạy trên macOS hoặc Linux không?</b></summary>
 
-Hiện TronDe chỉ có bản cài cho Windows 10/11 (64-bit).
+Hiện Trộn Đề QuizPVT chỉ có bản cài cho Windows 10/11 (64-bit).
 </details>
 
 Nhật ký lỗi nằm ở `%APPDATA%\TronDe\logs\tronde.log`, gửi kèm khi báo lỗi sẽ giúp xử lý nhanh hơn.
 
 ## 💬 Góp ý và báo lỗi
 
-Mọi góp ý, báo lỗi, đề xuất tính năng xin gửi qua mục **[Issues](https://github.com/vantupham/tron-de-trac-nghiem/issues)** hoặc liên hệ trực tiếp tác giả. Khi báo lỗi, vui lòng ghi rõ phiên bản (menu **Trợ giúp → Giới thiệu TronDe**), mô tả các bước gặp lỗi và gửi kèm file log (nếu được, kèm cả file ngân hàng gây lỗi).
+Mọi góp ý, báo lỗi, đề xuất tính năng xin gửi qua mục **[Issues](https://github.com/vantupham/tron-de-trac-nghiem/issues)** hoặc liên hệ trực tiếp tác giả. Khi báo lỗi, vui lòng ghi rõ phiên bản (menu **Trợ giúp → Giới thiệu Trộn Đề QuizPVT**), mô tả các bước gặp lỗi và gửi kèm file log (nếu được, kèm cả file ngân hàng gây lỗi).
 
 ## 👤 Tác giả và liên hệ
 
@@ -172,4 +172,4 @@ Mọi góp ý, báo lỗi, đề xuất tính năng xin gửi qua mục **[Issue
 - Điện thoại: 0939 725 119
 - Email: [phamtund@gmail.com](mailto:phamtund@gmail.com)
 
-Nếu TronDe hữu ích, hãy bấm ⭐ **Star** cho dự án và chia sẻ với đồng nghiệp.
+Nếu Trộn Đề QuizPVT hữu ích, hãy bấm ⭐ **Star** cho dự án và chia sẻ với đồng nghiệp.
