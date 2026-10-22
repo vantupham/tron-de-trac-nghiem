@@ -30,7 +30,7 @@ Xuất đề, bảng đáp án và tự kiểm tra đáp án khớp 100% với �
 |---|---|
 | 📝 **Đủ 4 dạng câu theo đề thi THPT mới** | Trắc nghiệm nhiều lựa chọn, đúng sai, trả lời ngắn, tự luận. Hỗ trợ câu chùm (nhiều câu chung một đoạn dẫn). |
 | 🧮 **Giữ nguyên nội dung gốc** | Công thức MathType, Equation, hình ảnh, bảng, định dạng chữ được sao chép nguyên vẹn sang đề. |
-| 🎯 **Rút câu theo ma trận** | Theo mức độ (NB/TH/VD/VDC), theo chủ đề, hoặc kết hợp cả hai. |
+| 🎯 **Rút câu theo ma trận** | Theo mức độ (NB/TH/VD/VDC), theo chủ đề, hoặc kết hợp cả hai. Các mã dùng chung một bộ câu, hoặc **mỗi mã rút bộ câu riêng** để chống nhìn bài. |
 | 🔀 **Trộn linh hoạt** | Đảo câu, đảo phương án, đảo câu trong nhóm; khóa vị trí câu hoặc giữ thứ tự phương án theo từng câu; tự cân bằng phân bố đáp án A/B/C/D. |
 | 📄 **Đề trình bày đúng mẫu** | Tiêu đề Sở/Trường – Kỳ thi, ô mã đề, "Trang x/y – Mã đề", 1 hoặc 2 cột, tự xếp phương án theo độ dài. |
 | ✅ **Đáp án luôn đúng** | Sau khi xuất, phần mềm đọc lại từng file đề và đối chiếu với bảng đáp án. |
