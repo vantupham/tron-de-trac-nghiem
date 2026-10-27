@@ -2,10 +2,11 @@
 
 <img src="docs/images/icon.png" alt="Trộn Đề QuizPVT" width="112">
 
-# Trộn Đề QuizPVT — Phần mềm trộn đề trắc nghiệm THPT
+# Trộn Đề QuizPVT — Phần mềm trộn đề và chấm bài trắc nghiệm THPT
 
 **Trộn đề từ ngân hàng câu hỏi Word, giữ nguyên công thức MathType và hình ảnh.<br>
-Xuất đề, bảng đáp án và tự kiểm tra đáp án khớp 100% với đề. Miễn phí, chạy offline.**
+In phiếu trả lời mẫu 2025, chấm bài từ ảnh quét / ảnh chụp điện thoại, xuất bảng điểm Excel.<br>
+Miễn phí, chạy offline.**
 
 [![Tải về](https://img.shields.io/badge/T%E1%BA%A3i%20v%E1%BB%81-Windows%2010%2F11-E3262E?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vantupham/tron-de-trac-nghiem/releases/latest)
 
@@ -14,7 +15,7 @@ Xuất đề, bảng đáp án và tự kiểm tra đáp án khớp 100% với �
 ![Nền tảng](https://img.shields.io/badge/n%E1%BB%81n%20t%E1%BA%A3ng-Windows%2064--bit-0078D4)
 ![Miễn phí](https://img.shields.io/badge/gi%C3%A1-mi%E1%BB%85n%20ph%C3%AD-2EA44F)
 
-[Tải về](#-tải-về-và-cài-đặt) · [Hướng dẫn nhanh](#-dùng-trong-4-bước) · [Soạn ngân hàng câu hỏi](#-soạn-ngân-hàng-câu-hỏi) · [Câu hỏi thường gặp](#-câu-hỏi-thường-gặp) · [Liên hệ](#-tác-giả-và-liên-hệ)
+[Tải về](#-tải-về-và-cài-đặt) · [Hướng dẫn nhanh](#-dùng-trong-4-bước) · [Chấm bài](#-chấm-bài-bằng-phiếu-trả-lời) · [Soạn ngân hàng câu hỏi](#-soạn-ngân-hàng-câu-hỏi) · [Câu hỏi thường gặp](#-câu-hỏi-thường-gặp) · [Liên hệ](#-tác-giả-và-liên-hệ)
 
 </div>
 
@@ -35,6 +36,9 @@ Xuất đề, bảng đáp án và tự kiểm tra đáp án khớp 100% với �
 | 📄 **Đề trình bày đúng mẫu** | Tiêu đề Sở/Trường – Kỳ thi, ô mã đề, "Trang x/y – Mã đề", 1 hoặc 2 cột, tự xếp phương án theo độ dài. |
 | ✅ **Đáp án luôn đúng** | Sau khi xuất, phần mềm đọc lại từng file đề và đối chiếu với bảng đáp án. |
 | 📊 **Đầy đủ file đáp án** | `DapAn.docx`, `DapAn.xlsx` (dùng cho phần mềm chấm), đề kèm lời giải, PDF (tùy chọn). |
+| 🧾 **Phiếu trả lời mẫu 2025** | Tự tạo phiếu đúng số câu của đề, có mã QR; in sẵn họ tên và tô sẵn SBD theo danh sách lớp. |
+| 📷 **Chấm bài từ ảnh** | Ảnh máy quét, ảnh chụp điện thoại hoặc file PDF gộp. Tự nắn ảnh nghiêng, lộn ngược, bóng đổ. Chỗ tô mơ hồ được đánh dấu để thầy cô xem lại, **không tự đoán**. |
+| 📈 **Bảng điểm Excel** | Điểm từng phần theo danh sách lớp, chi tiết từng câu, phổ điểm, độ khó và độ phân biệt từng câu. |
 | 🔒 **An toàn, riêng tư** | Chạy offline, không gửi dữ liệu đi đâu, không bao giờ sửa file ngân hàng gốc. |
 
 ## 📥 Tải về và cài đặt
@@ -65,6 +69,32 @@ File mẫu (`ngan_hang_mau.docx`, `huong_dan_soan.docx`) có trong Start Menu, m
 **Bước 4 – Xuất đề.** Bấm **Bắt đầu xuất đề**, rồi **Mở thư mục kết quả**. Bộ đề xuất ra đúng như bản đã xem trước và đã được tự kiểm tra.
 
 <img src="docs/images/buoc4-xuat-de.png" alt="Bước 4: xuất đề và tự kiểm tra" width="720">
+
+## 📷 Chấm bài bằng phiếu trả lời
+
+**In phiếu.** Khi xuất đề, thư mục bộ đề có thêm `PhieuTraLoi.pdf` theo mẫu phiếu 2025: số báo danh, mã đề, đúng số câu của đề, mã QR và 4 ô vuông đen ở góc để định vị. Ở bước Xuất đề, nút **Phiếu in sẵn theo danh sách lớp** tạo mỗi học sinh một phiếu có sẵn họ tên và SBD đã tô, tránh tô nhầm số báo danh. In khổ A4, tỉ lệ 100%.
+
+<img src="docs/images/phieu-tra-loi.png" alt="Phiếu trả lời mẫu 2025 có mã QR" width="420">
+
+**Chấm.** Chọn chế độ **Chấm bài** ở đầu cửa sổ:
+
+1. **Đáp án** – chọn thư mục bộ đề đã xuất (hoặc file Excel đáp án, hoặc phiếu đáp án giáo viên tô), thêm danh sách lớp nếu muốn ghép họ tên.
+
+   <img src="docs/images/cham1-dap-an.png" alt="Chấm bài – chọn đáp án" width="720">
+
+2. **Bài làm** – chọn thư mục ảnh hoặc file PDF đã quét (kéo thả được), bấm **Chấm các bài mới**. Phiên chấm tự lưu để mở lại chấm tiếp.
+3. **Rà soát** – xem các phiếu được đánh dấu (tô 2 ô, tô nhạt, vết tẩy, SBD trùng…). Bấm vào ô trên ảnh để sửa, phím **F3** chuyển nhanh tới phiếu cần xem tiếp. Câu sai đề thì dùng **Điều chỉnh đáp án** (đổi đáp án, cho mọi lựa chọn đều đúng, hoặc bỏ câu).
+
+   <img src="docs/images/cham2-ra-soat.png" alt="Chấm bài – rà soát phiếu cần xem" width="720">
+
+4. **Bảng điểm** – xem trước và xuất `BangDiem.xlsx`.
+
+   <img src="docs/images/cham3-bang-diem.png" alt="Chấm bài – bảng điểm" width="720">
+
+Điểm tính theo quy chế 2025: đúng sai đúng 1/2/3/4 ý được 0,1/0,25/0,5/1 điểm câu; trả lời ngắn so khớp chính xác (có tùy chọn so theo giá trị). Ô **ĐIỂM TL** trên phiếu để giáo viên tô điểm tự luận, phần mềm cộng vào tổng. Hướng dẫn chi tiết: menu **Trợ giúp → Hướng dẫn in phiếu và chấm bài**.
+
+> [!TIP]
+> Quét 200–300 dpi ảnh xám cho kết quả tốt nhất. Chụp điện thoại thì đặt phiếu trên nền tối, đủ sáng, thấy rõ cả 4 ô vuông đen ở góc.
 
 ## 📚 Soạn ngân hàng câu hỏi
 
@@ -125,7 +155,10 @@ Mỗi lần xuất tạo một thư mục mới, ví dụ `Toan_KiemTraGiuaKyI_2
 | `De_101_LoiGiai.docx`, … | Đề kèm lời giải: đáp án đúng gạch chân, lời giải sau mỗi câu |
 | `DapAn.docx` | Bảng đáp án các mã đề và thang điểm từng phần |
 | `DapAn.xlsx` | Bảng đáp án dạng dọc, dạng ngang, bảng đối chiếu câu mới ↔ câu gốc |
-| `TronDe_log.json` | Seed và cấu hình, dùng để tạo lại đúng bộ đề này |
+| `PhieuTraLoi.pdf` | Phiếu trả lời trắc nghiệm mẫu 2025 cho bộ đề này |
+| `TronDe_log.json` | Seed và cấu hình, dùng để tạo lại đúng bộ đề này (cũng là dữ liệu để chấm bài) |
+| `BangDiem.xlsx` | Bảng điểm sau khi chấm: điểm, chi tiết từng câu, thống kê, phiếu cần xem lại |
+| `ChamBai_<ngày giờ>.json` | Phiên chấm: mở lại để chấm tiếp, sửa điểm, chấm thêm bài |
 
 Đáp án đúng sai ghi dạng `ĐSĐS`, trả lời ngắn ghi giá trị (ví dụ `-3,5`).
 
@@ -153,6 +186,18 @@ Dùng lại **seed** hiển thị ở bước 3 và bước 4 (cũng được gh
 <summary><b>Phần mềm báo "câu thiếu phương án" (E01)?</b></summary>
 
 Kiểm tra nhãn phương án có dạng `A.` + dấu cách, gõ tay, không dùng danh sách đánh số tự động của Word. Bấm đúp vào dòng lỗi ở bước 1 để xem đúng câu bị lỗi.
+</details>
+
+<details>
+<summary><b>Chấm bằng ảnh có chính xác không?</b></summary>
+
+Phần mềm nắn ảnh theo 4 ô vuông ở góc và đo độ tô từng ô. Chỗ nào không chắc chắn (tô 2 ô, tô nhạt, tô chưa kín, vết tẩy, SBD hoặc mã đề tô sai) đều được đánh dấu để thầy cô xem và sửa ở bước Rà soát, phần mềm không tự đoán. Bảng điểm có sheet **CanXemLai** liệt kê các phiếu đã được đánh dấu.
+</details>
+
+<details>
+<summary><b>Đề không trộn bằng phần mềm có chấm được không?</b></summary>
+
+Được, nếu học sinh làm trên phiếu do phần mềm in. Nhập đáp án bằng file Excel (sheet `TongHop` hoặc `BangNgang` như `DapAn.xlsx`), hoặc tô đáp án lên phiếu trắng (mỗi mã đề một phiếu) rồi chọn **Thay đáp án bằng phiếu giáo viên tô**.
 </details>
 
 <details>
