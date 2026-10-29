@@ -55,7 +55,12 @@ Miễn phí, chạy offline (chỉ tính năng kiểm tra bằng AI — tắt s�
 **Yêu cầu:** Windows 10 hoặc 11 (64-bit). Muốn xuất PDF thì máy cần có Microsoft Word hoặc LibreOffice.
 
 > [!NOTE]
-> Windows có thể hiện cảnh báo **"Windows protected your PC"** vì bộ cài chưa được ký số. Bấm **More info → Run anyway** để tiếp tục cài.
+> Bộ cài chưa được ký số nên Windows và trình duyệt có thể cảnh báo dù phần mềm không có virus:
+> - **Trình duyệt** báo file *"không thường được tải xuống"*: bấm **⋯ → Giữ lại (Keep) → Vẫn giữ lại**.
+> - **"Windows protected your PC"**: bấm **More info → Run anyway**.
+> - **"Smart App Control đã chặn…"** (một số máy Windows 11 cài mới): Windows không cho chạy phần mềm chưa ký số; chỉ cài được khi tắt Smart App Control (*Bảo mật Windows → Kiểm soát ứng dụng và trình duyệt*), mà tắt rồi thì không bật lại được — cân nhắc trước khi tắt.
+>
+> Muốn chắc file tải về đúng là bản gốc: so mã **SHA-256** ghi ở trang Releases với kết quả lệnh PowerShell `Get-FileHash TronDe-Setup-<phiên bản>.exe`.
 
 File mẫu (`ngan_hang_mau.docx`, `huong_dan_soan.docx`) có trong Start Menu, mục **Trộn Đề QuizPVT → File mẫu**. Gỡ cài đặt qua *Settings → Apps* như phần mềm thông thường.
 
