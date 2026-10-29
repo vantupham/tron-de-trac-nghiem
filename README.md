@@ -6,7 +6,7 @@
 
 **Trộn đề từ ngân hàng câu hỏi Word, giữ nguyên công thức MathType và hình ảnh.<br>
 In phiếu trả lời mẫu 2025, chấm bài từ ảnh quét / ảnh chụp điện thoại, xuất bảng điểm Excel.<br>
-Miễn phí, chạy offline.**
+Miễn phí, chạy offline (chỉ tính năng kiểm tra bằng AI — tắt sẵn — cần Internet).**
 
 [![Tải về](https://img.shields.io/badge/T%E1%BA%A3i%20v%E1%BB%81-Windows%2010%2F11-E3262E?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vantupham/tron-de-trac-nghiem/releases/latest)
 
@@ -31,15 +31,20 @@ Miễn phí, chạy offline.**
 |---|---|
 | 📝 **Đủ 4 dạng câu theo đề thi THPT mới** | Trắc nghiệm nhiều lựa chọn, đúng sai, trả lời ngắn, tự luận. Hỗ trợ câu chùm (nhiều câu chung một đoạn dẫn). |
 | 🧮 **Giữ nguyên nội dung gốc** | Công thức MathType, Equation, hình ảnh, bảng, định dạng chữ được sao chép nguyên vẹn sang đề. |
+| 📚 **Gộp nhiều file ngân hàng** | Mỗi người/mỗi chương một file: chọn cùng lúc nhiều file, phần mềm gộp làm một ngân hàng (giữ ảnh, MathType của từng file), báo câu trùng giữa các file. |
+| 🕘 **Lịch sử dùng câu** | Ghi lại câu nào đã ra đề; tùy chọn **tránh câu đã ra trong N lần xuất gần nhất** để khóa sau không gặp lại đề cũ. Nhận ra câu theo nội dung, kể cả khi đổi tên hay gộp file. |
 | 🎯 **Rút câu theo ma trận** | Theo mức độ (NB/TH/VD/VDC), theo chủ đề, hoặc kết hợp cả hai. Các mã dùng chung một bộ câu, hoặc **mỗi mã rút bộ câu riêng** để chống nhìn bài. |
+| 🗂️ **Ma trận + bản đặc tả (CV 7991)** | Tự lập ma trận và bản đặc tả theo chủ đề × dạng câu hỏi × mức độ Biết/Hiểu/Vận dụng, có tổng số câu, tổng điểm, tỉ lệ % và yêu cầu cần đạt. Nộp tổ chuyên môn ngay, khỏi kẻ bảng tay. |
+| 🔢 **Đề tương đương bằng cách thay số** | Khai báo biến trong câu (`Biến: a = 2..9`), viết `{a}`, `{a + 1}` vào đề và phương án: mỗi mã đề ra một bộ số khác, đáp án tự tính lại và được kiểm tra như mọi câu khác. |
 | 🔀 **Trộn linh hoạt** | Đảo câu, đảo phương án, đảo câu trong nhóm; khóa vị trí câu hoặc giữ thứ tự phương án theo từng câu; tự cân bằng phân bố đáp án A/B/C/D. |
 | 📄 **Đề trình bày đúng mẫu** | Tiêu đề Sở/Trường – Kỳ thi, ô mã đề, "Trang x/y – Mã đề", 1 hoặc 2 cột, tự xếp phương án theo độ dài. |
 | ✅ **Đáp án luôn đúng** | Sau khi xuất, phần mềm đọc lại từng file đề và đối chiếu với bảng đáp án. |
 | 📊 **Đầy đủ file đáp án** | `DapAn.docx`, `DapAn.xlsx` (dùng cho phần mềm chấm), đề kèm lời giải, PDF (tùy chọn). |
 | 🧾 **Phiếu trả lời mẫu 2025** | Tự tạo phiếu đúng số câu của đề, có mã QR; in sẵn họ tên và tô sẵn SBD theo danh sách lớp. |
-| 📷 **Chấm bài từ ảnh** | Ảnh máy quét, ảnh chụp điện thoại hoặc file PDF gộp. Tự nắn ảnh nghiêng, lộn ngược, bóng đổ. Chỗ tô mơ hồ được đánh dấu để thầy cô xem lại, **không tự đoán**. |
-| 📈 **Bảng điểm Excel** | Điểm từng phần theo danh sách lớp, chi tiết từng câu, phổ điểm, độ khó và độ phân biệt từng câu. |
-| 🔒 **An toàn, riêng tư** | Chạy offline, không gửi dữ liệu đi đâu, không bao giờ sửa file ngân hàng gốc. |
+| 📷 **Chấm bài từ ảnh** | Ảnh máy quét, ảnh chụp điện thoại (quét mã QR là gửi thẳng vào máy tính qua Wi-Fi) hoặc file PDF gộp. Tự nắn ảnh nghiêng, lộn ngược, bóng đổ. Chỗ tô mơ hồ được đánh dấu để thầy cô phóng to ảnh xem lại, **không tự đoán**. |
+| 📈 **Bảng điểm Excel** | Điểm từng phần theo danh sách lớp, chi tiết từng câu, phổ điểm, độ khó và độ phân biệt từng câu. **Điền thẳng vào file sổ điểm** tải từ Vietschool, vnEdu, SMAS…; **PDF kết quả cho từng em** gửi phụ huynh; danh sách **câu hỏi nên sửa** trong ngân hàng. |
+| 🤖 **Kiểm tra câu hỏi bằng AI (tùy chọn)** | Nhờ AI của Anthropic, OpenAI (ChatGPT) hoặc Google (Gemini) — dùng khóa API của chính thầy cô — tự giải từng câu để phát hiện **đáp án đánh dấu sai**, **câu có hai đáp án đúng** và **gợi ý mức độ** Biết/Hiểu/Vận dụng. Chỉ là gợi ý để xem lại, không sửa ngân hàng. |
+| 🔒 **An toàn, riêng tư** | Chạy offline, không gửi dữ liệu đi đâu, không bao giờ sửa file ngân hàng gốc. Ngoại lệ duy nhất là kiểm tra bằng AI: tắt sẵn, chỉ gửi khi thầy cô bấm nút và đồng ý. |
 
 ## 📥 Tải về và cài đặt
 
@@ -56,7 +61,7 @@ File mẫu (`ngan_hang_mau.docx`, `huong_dan_soan.docx`) có trong Start Menu, m
 
 ## 🚀 Dùng trong 4 bước
 
-**Bước 1 – Ngân hàng.** Kéo thả file ngân hàng câu hỏi (.docx) vào cửa sổ, hoặc bấm **Tải file mẫu** để thử với ngân hàng Toán 12 có sẵn. Phần mềm thống kê số câu theo phần, chủ đề, mức độ và liệt kê lỗi soạn thảo (bấm đúp một dòng để xem câu).
+**Bước 1 – Ngân hàng.** Kéo thả file ngân hàng câu hỏi (.docx) vào cửa sổ, hoặc bấm **Tải file mẫu** để thử với ngân hàng Toán 12 có sẵn. Tổ chuyên môn soạn mỗi chương một file thì chọn nhiều file cùng lúc (giữ Ctrl) hoặc bấm **Thêm file…**: các phần cùng loại được gộp lại, lỗi ghi rõ thuộc file nào, câu trùng giữa các file được cảnh báo. Phần mềm thống kê số câu theo phần, chủ đề, mức độ và liệt kê lỗi soạn thảo (bấm đúp một dòng để xem câu).
 
 <img src="docs/images/buoc1-ngan-hang.png" alt="Bước 1: nạp ngân hàng câu hỏi" width="720">
 
@@ -82,12 +87,14 @@ File mẫu (`ngan_hang_mau.docx`, `huong_dan_soan.docx`) có trong Start Menu, m
 
    <img src="docs/images/cham1-dap-an.png" alt="Chấm bài – chọn đáp án" width="720">
 
-2. **Bài làm** – chọn thư mục ảnh hoặc file PDF đã quét (kéo thả được), bấm **Chấm các bài mới**. Phiên chấm tự lưu để mở lại chấm tiếp.
-3. **Rà soát** – xem các phiếu được đánh dấu (tô 2 ô, tô nhạt, vết tẩy, SBD trùng…). Bấm vào ô trên ảnh để sửa, phím **F3** chuyển nhanh tới phiếu cần xem tiếp. Câu sai đề thì dùng **Điều chỉnh đáp án** (đổi đáp án, cho mọi lựa chọn đều đúng, hoặc bỏ câu).
+2. **Bài làm** – chọn thư mục ảnh hoặc file PDF đã quét (kéo thả được), bấm **Chấm các bài mới**. Phiên chấm tự lưu để mở lại chấm tiếp. Không có máy quét: bấm **Chụp bằng điện thoại…**, dùng điện thoại cùng mạng Wi-Fi quét mã QR rồi chụp từng phiếu — ảnh tự gửi về máy tính, không cần Internet hay cài app. Trang trên điện thoại hiện trạng thái kết nối, tiến độ gửi và ảnh thu nhỏ từng tờ; mạng chập chờn thì bấm **Gửi lại**, không phải chụp lại.
+
+   <img src="docs/images/dien-thoai.png" alt="Trang gửi ảnh phiếu trên điện thoại" width="300">
+3. **Rà soát** – xem các phiếu được đánh dấu (tô 2 ô, tô nhạt, vết tẩy, SBD trùng…). Bấm vào ô trên ảnh để sửa, phím **F3** chuyển nhanh tới phiếu cần xem tiếp. Cần nhìn kỹ chỗ tô nhạt, vết tẩy: **phóng to ảnh phiếu** bằng các nút trên ảnh, **Ctrl + lăn chuột** hoặc **Ctrl +** / **Ctrl −** (**Ctrl 0** về vừa khung), kéo chuột để di chuyển — mức phóng to và vùng đang xem được giữ khi sửa và khi sang phiếu sau. Câu sai đề thì dùng **Điều chỉnh đáp án** (đổi đáp án, cho mọi lựa chọn đều đúng, hoặc bỏ câu).
 
    <img src="docs/images/cham2-ra-soat.png" alt="Chấm bài – rà soát phiếu cần xem" width="720">
 
-4. **Bảng điểm** – xem trước và xuất `BangDiem.xlsx`.
+4. **Bảng điểm** – xem trước và xuất `BangDiem.xlsx`. Nút **PDF kết quả từng em…** tạo cho mỗi học sinh một file PDF (điểm, từng câu em chọn và đáp án, ảnh phiếu đã khoanh đúng/sai) để gửi riêng cho học sinh, phụ huynh. Nút **Câu nên xem lại…** (và sheet `XemLaiCauHoi`) liệt kê câu hỏi có dấu hiệu cần sửa trong ngân hàng — độ phân biệt thấp hoặc âm, phương án nhiễu không ai chọn hoặc được chọn nhiều hơn đáp án, câu gắn mức Biết mà ít em làm đúng — kèm vị trí câu trong file Word (cần từ 20 bài trở lên). Nút **Điền vào sổ điểm của trường** điền tổng điểm thẳng vào file nhập điểm tải từ Vietschool, vnEdu, SMAS… (file `.xls` hoặc `.xlsx` đã có danh sách học sinh, kể cả file nhiều lớp chung một sheet): chọn cột và lớp cần điền, phần mềm ghép học sinh theo mã/họ tên/lớp/ngày sinh, làm tròn 1 chữ số thập phân theo Thông tư 22 và lưu ra file mới cùng định dạng. File `.xls` cần máy có Microsoft Excel hoặc LibreOffice. Trường hợp không chắc chắn (trùng tên, mã khớp nhưng tên khác…) được để trống và liệt kê để thầy cô kiểm tra.
 
    <img src="docs/images/cham3-bang-diem.png" alt="Chấm bài – bảng điểm" width="720">
 
@@ -126,12 +133,14 @@ Câu 1. (1,5 điểm) Tìm các khoảng đơn điệu của hàm số y = x³ �
 | `Câu n.` hoặc `Câu n:` | Bắt đầu câu. Gõ tay, không dùng đánh số tự động của Word |
 | Gạch chân / chữ đỏ / `*B.` / tô sáng | Đánh dấu đáp án đúng (dùng một cách cho cả file) |
 | `BẢNG ĐÁP ÁN` + bảng 2 dòng hoặc 2 cột | Ghi đáp án trong bảng thay cho đánh dấu trong câu (xem bên dưới) |
-| `[NB] [TH] [VD] [VDC]`, `[CĐ1]` | Mức độ, chủ đề để rút theo ma trận. Tự xóa khỏi đề |
+| `[NB] [TH] [VD] [VDC]`, `[CĐ1]` | Mức độ, chủ đề để rút theo ma trận và lập bản đặc tả. Tự xóa khỏi đề |
+| `[Biết] [Hiểu] [Vận dụng]` | Cách ghi mức độ theo CV 7991, tương đương `[NB] [TH] [VD]` |
 | `#` hoặc `[KĐ]` | Không đảo phương án của câu này (ví dụ câu có phương án "Cả A và B") |
 | `[KHÓA]` | Giữ nguyên vị trí câu |
 | `[NHÓM]` … `[HẾT NHÓM]` | Câu chùm. "Từ câu X đến câu Y" trong đoạn dẫn được đánh số lại tự động |
 | `Lời giải` / `Hướng dẫn giải` | Lời giải, chỉ in ở đề kèm lời giải |
 | `Điểm: 1,5` hoặc `(1,5 điểm)` | Điểm câu tự luận |
+| `Biến: a = 2..9; b = 1\|3\|5` + `{a + b}` | Thay số: mỗi mã đề một bộ số (xem bên dưới) |
 
 ### Ghi đáp án bằng bảng đáp án
 
@@ -145,6 +154,26 @@ Thay vì gạch chân trong từng câu, có thể đặt đoạn tiêu đề **
 - Nhiều phần dùng chung một bảng thì ghi số câu kèm phần (`I.1`, `II.1`…), hoặc đặt mỗi phần một bảng.
 - Bảng đáp án **không bao giờ được in vào đề**. Nếu vừa gạch chân vừa có bảng mà hai nơi ghi khác nhau, phần mềm báo lỗi để thầy cô kiểm tra lại.
 
+### Thay số: mỗi mã đề một bộ số
+
+Thêm một đoạn `Biến:` trong câu (không in vào đề), rồi viết chỗ cần thay trong ngoặc nhọn ở thân câu, phương án, đáp án, lời giải:
+
+```text
+Câu 3. Một vật chuyển động với vận tốc {v} m/s trong {t} giây. Quãng đường vật đi được là
+Biến: v = 2..9; t = 3|5|10; điều kiện: v != t
+A. {v*t} m        B. {v+t} m        C. {v*t + 10} m        D. {v*t/2} m        ← gạch chân "A" như thường
+
+Câu 4. Tính diện tích hình tròn bán kính {r} cm (π ≈ 3,14).
+Biến: r = 1..9
+Đáp án: {3,14*r^2:1}                                          ← ":1" = làm tròn 1 chữ số thập phân
+```
+
+- Khai báo: khoảng `a = 2..9`, khoảng có bước `x = 0,5..3 bước 0,5`, danh sách `b = 1|3|5`, biến tính `c = a*b`, điều kiện `điều kiện: a != b` (nhiều mục cách nhau bằng dấu `;`).
+- Trong ngoặc nhọn dùng `+ - * /`, `^` (lũy thừa, số mũ nguyên), `sqrt`, `abs`, `min`, `max`, `round`, `gcd`, `lcm`. Đối số của hàm cách nhau bằng dấu phẩy **và dấu cách** (`round(x, 2)`); số thập phân bên trong hàm viết dấu chấm (`min(0.5, a)`). Số in kiểu Việt Nam (`1,5`), làm tròn nửa lên, tối đa 4 chữ số thập phân; `{x:2}` giữ đúng 2 chữ số.
+- Câu đã có `Biến:` thì mọi cặp ngoặc nhọn đều là chỗ thay — ký hiệu tập hợp `{1; 2}` trong câu đó nên gõ bằng Equation.
+- Thay được trong chữ thường và công thức **Equation** của Word. Công thức **MathType** là ảnh nhúng nên không thay được.
+- Phần mềm thử thay nhiều lần ngay khi mở file: báo lỗi nếu khai báo sai, không có bộ số thỏa điều kiện, hoặc các phương án trùng nhau; báo cảnh báo nếu đáp án trả lời ngắn không ghi được trên phiếu.
+
 ## 📦 File xuất ra
 
 Mỗi lần xuất tạo một thư mục mới, ví dụ `Toan_KiemTraGiuaKyI_20261021_1632`:
@@ -156,8 +185,9 @@ Mỗi lần xuất tạo một thư mục mới, ví dụ `Toan_KiemTraGiuaKyI_2
 | `DapAn.docx` | Bảng đáp án các mã đề và thang điểm từng phần |
 | `DapAn.xlsx` | Bảng đáp án dạng dọc, dạng ngang, bảng đối chiếu câu mới ↔ câu gốc |
 | `PhieuTraLoi.pdf` | Phiếu trả lời trắc nghiệm mẫu 2025 cho bộ đề này |
+| `MaTran_DacTa.docx` | Ma trận và bản đặc tả đề theo CV 7991 (khi ngân hàng có gắn chủ đề/mức độ). Tên chủ đề và yêu cầu cần đạt nhập ở nút **Chủ đề…** của bước Cấu hình |
 | `TronDe_log.json` | Seed và cấu hình, dùng để tạo lại đúng bộ đề này (cũng là dữ liệu để chấm bài) |
-| `BangDiem.xlsx` | Bảng điểm sau khi chấm: điểm, chi tiết từng câu, thống kê, phiếu cần xem lại |
+| `BangDiem.xlsx` | Bảng điểm sau khi chấm: điểm, chi tiết từng câu, thống kê, câu hỏi nên xem lại trong ngân hàng, phiếu cần xem lại |
 | `ChamBai_<ngày giờ>.json` | Phiên chấm: mở lại để chấm tiếp, sửa điểm, chấm thêm bài |
 
 Đáp án đúng sai ghi dạng `ĐSĐS`, trả lời ngắn ghi giá trị (ví dụ `-3,5`).
@@ -210,6 +240,17 @@ Xuất PDF cần Microsoft Word hoặc LibreOffice trên máy. Nếu không có,
 <summary><b>Báo "không ghi được file… đang mở trong Word?"</b></summary>
 
 Đóng các file đề cũ đang mở trong Word rồi xuất lại.
+</details>
+
+<details>
+<summary><b>Kiểm tra bằng AI gửi những gì, tốn bao nhiêu?</b></summary>
+
+Tính năng này tắt sẵn. Muốn dùng: menu **Công cụ → Cài đặt kiểm tra câu hỏi bằng AI…**, chọn nhà cung cấp (Anthropic, OpenAI hoặc Google), dán khóa API của thầy cô, bấm **Kiểm tra khóa và lấy danh sách model** rồi **Lưu**. Sau đó ở Bước 1 bấm **Kiểm tra bằng AI…**.
+
+- Chỉ gửi **chữ của câu hỏi** (thân câu, phương án, đáp án đang đánh dấu, mức độ đã gắn) và công thức Equation; **không gửi** ảnh, công thức MathType, tên file. Câu có hình/MathType được báo để AI biết là thiếu nội dung.
+- Phần mềm hỏi lại trước mỗi lần gửi. Chi phí tính vào tài khoản API của thầy cô, tùy số câu và model (model nhỏ/nhanh rẻ hơn nhiều; xem bảng giá trên trang của nhà cung cấp).
+- Khóa API được mã hóa theo tài khoản Windows đang dùng, không đọc được trên máy khác.
+- AI có thể nhầm: kết quả chỉ để thầy cô xem lại, có thể lưu ra Excel. Ngân hàng không bị sửa.
 </details>
 
 <details>
